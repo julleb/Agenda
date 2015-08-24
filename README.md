@@ -1,4 +1,4 @@
-Agenda is a calendar and planning application created in Android. The app is developed with the aim to be user friendly and fun to use. The interaction is based on drag and drop and the system is buit with the MVC pattern.
+Agenda is a calendar and planning application created in Android. The app is developed with the aim to be user friendly and fun to use. The interaction is based on drag and drop and the system is built with the MVC pattern.
 
 
 
@@ -9,5 +9,5 @@ Agenda is a calendar and planning application created in Android. The app is dev
 
 
 
-Other Contributors
+Other Contributors </>
 Niklas Axelsson, Rickard Larsson, Jesper Qvarfordt

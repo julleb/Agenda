@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+<item
+    android:title="Help"
+    android:id="@+id/help"
+    android:numericShortcut="1"
+    />
+
+<item
+    android:title="About us"
+    android:id="@+id/about"
+    android:numericShortcut="2"
+    />
+
+
+    
+</menu>

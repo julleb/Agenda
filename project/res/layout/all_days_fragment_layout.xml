@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/all_days_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="#393939" 
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp">
+
+            <TextView
+                android:textSize="16sp"
+				android:textStyle="bold"
+                android:layout_marginLeft="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Your days"
+                android:layout_centerVertical="true"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/newDayButton"
+                android:text="New day"
+                style="@style/AgendaButtonStyle"
+                android:layout_alignParentRight="true"
+                android:layout_margin="7dp"
+              />
+        </RelativeLayout>
+    </LinearLayout>
+    
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/allDaysListViewLinearLayout"
+        android:layout_height="fill_parent"
+        android:layout_width="fill_parent">
+        
+        <ListView 
+            android:id="@+id/allDaysListView"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            
+        </ListView>
+        
+    </LinearLayout>
+
+</LinearLayout>

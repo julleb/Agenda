@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp" >
+    
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:text="Agenda is an application created for the course DH2641 Interaction Programming on the Royal Institute of Technology in Stockholm. It was created by project group 14 consisting of Jesper Qvarfordt, Rickard Larsson, Niklas Axelsson and Julius Bladh. Feel free to use and share as you like."/>
+
+</LinearLayout>

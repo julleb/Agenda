@@ -1,0 +1,62 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="#393939" 
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp">
+
+            <TextView
+                android:textSize="16sp"
+				android:textStyle="bold"
+                android:layout_marginLeft="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Your activities"
+                android:layout_centerVertical="true"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/newActivityButton"
+                android:text="New activity"
+                style="@style/AgendaButtonStyle"
+                android:layout_alignParentRight="true"
+                android:layout_margin="7dp"
+              />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/horizontalListlayout"
+        android:layout_width="fill_parent"
+        android:layout_height="110dp"
+        android:orientation="vertical" >
+
+        <com.group14.controller.HorizontalListView
+            android:id="@+id/listview"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" 
+            >
+        </com.group14.controller.HorizontalListView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/fragment_holder"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+</LinearLayout>
